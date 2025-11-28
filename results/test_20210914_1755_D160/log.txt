@@ -1,0 +1,11 @@
+25-11-27 16:34:01.457 - INFO: data_path: ..\data\processed\20210914_1755_D160
+25-11-27 16:34:01.467 - INFO: save_path: ..\results\test_20210914_1755_D160
+25-11-27 16:34:01.469 - INFO: checkpoint_path: ./exps/pretrained/mvtec_pretrained.pth
+25-11-27 16:34:01.474 - INFO: config_path: ./open_clip/model_configs/ViT-L-14-336.json
+25-11-27 16:34:01.475 - INFO: dataset: mvtec
+25-11-27 16:34:01.476 - INFO: model: ViT-L-14-336
+25-11-27 16:34:01.477 - INFO: pretrained: openai
+25-11-27 16:34:01.477 - INFO: features_list: [6, 12, 18, 24]
+25-11-27 16:34:01.478 - INFO: image_size: 518
+25-11-27 16:34:01.478 - INFO: mode: zero_shot
+25-11-27 16:34:01.479 - INFO: seed: 10

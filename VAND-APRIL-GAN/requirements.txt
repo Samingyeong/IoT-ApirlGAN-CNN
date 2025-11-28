@@ -1,0 +1,21 @@
+ftfy==6.1.1
+# horovod==0.28.1  # 선택적 의존성: 분산 학습이 필요한 경우에만 설치
+# horovod 설치 시 CMake 3.13+ 필요: sudo apt-get install cmake 또는 pip install cmake
+huggingface_hub==0.16.4
+# numpy는 소스 빌드 문제로 버전 지정하지 않음 (미리 빌드된 wheel 사용)
+numpy>=1.21.0
+opencv-python==4.8.0.74
+pandas==1.5.3
+Pillow==9.5.0
+regex==2023.6.3
+# scikit-image는 소스 빌드 문제로 버전 지정하지 않음 (미리 빌드된 wheel 사용)
+# 평가 지표 계산에만 사용되므로 선택적 패키지
+scikit-image>=0.19.0
+scikit-learn==1.2.2
+setuptools==68.0.0
+tabulate==0.9.0
+timm==0.9.2
+torch==1.13.1
+torchvision==0.14.1
+tqdm==4.65.0
+transformers==4.30.0
